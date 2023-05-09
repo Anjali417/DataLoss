@@ -502,13 +502,7 @@ for i in range(20):
     print(losses)
 
 
-print("{'ner': 0.189312558963215556}")
-print("{'ner': 0.116512558963215556}")
-print("{'ner': 0.102612558963215556}")
-print("{'ner': 0.114312558963215556}")
 
-print("{'token_acc': 1.0, 'token_p': 1.0, 'token_r': 1.0, 'token_f': 1.0, 'ents_p': 0.9584, 'ents_r': 0.9462, 'ents_f': 0.9573, 'speed': 35008.03199028457}")
-# Evaluate the model
 score = nlp.evaluate(train_data)
 # print(score)
 
